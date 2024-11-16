@@ -35,7 +35,7 @@ Enter lower limit (a): 0
 Enter upper limit (b): 20
 Enter number of intervals (n): 100
 
-The definite integral from 0.00 to 1.00 is: 3686.66667
+The definite integral from 0.00 to 20.00 is: 3686.66667
 ```
 
 ## 📂 Project Structure
