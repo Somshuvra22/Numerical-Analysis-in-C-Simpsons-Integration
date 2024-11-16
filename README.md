@@ -1,6 +1,6 @@
 # 📐 Numerical Integration Calculator
 
-A C program that performs numerical integration using Simpson's Rule. This program can evaluate definite integrals of mathematical expressions containing basic arithmetic operations and powers.
+A C program that performs numerical integration using Simpson's 1/3rd Rule. This program can evaluate definite integrals of mathematical expressions containing basic arithmetic operations and powers.
 
 ## ✨ Features
 
@@ -9,13 +9,6 @@ A C program that performs numerical integration using Simpson's Rule. This progr
 - 🧮 Implements Simpson's Rule for numerical integration
 - 🔤 Handles expressions with variable 'x'
 - 🔄 Converts infix notation to postfix for efficient evaluation
-
-## 📋 Prerequisites
-
-To compile and run this program, you need:
-- 💻 C compiler (GCC recommended)
-- 📚 Standard C libraries
-- 📐 Math library (`-lm` linking required)
 
 ## 🎯 Usage
 
@@ -68,11 +61,5 @@ The program works in several steps:
 1. 📖 Reads the mathematical expression from `functions.txt`
 2. 🔄 Converts the infix expression to postfix notation
 3. 🧮 Evaluates the expression at different points using a stack-based calculator
-4. 📊 Applies Simpson's Rule for numerical integration
+4. 📊 Applies Simpson's 1/3rd Rule for numerical integration
 
-## ⚠️ Limitations
-
-- 📏 Maximum expression length: 256 characters
-- 📚 Maximum stack size: 100 elements
-- ⚡ Division by zero returns 0
-- 📝 Expression must be in valid mathematical format
