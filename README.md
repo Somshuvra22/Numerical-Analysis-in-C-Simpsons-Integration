@@ -59,7 +59,7 @@ The definite integral from 0.00 to 20.00 is: 3686.66667
 
 The program works in several steps:
 1. 📖 Reads the mathematical expression from `functions.txt`
-2. 🔄 Converts the infix expression to postfix notation
+2. 🔄 Converts the infix expression to postfix notation (Infix to Postfix Evaluation.pdf)
 3. 🧮 Evaluates the expression at different points using a stack-based calculator
 4. 📊 Applies Simpson's 1/3rd Rule for numerical integration
 
